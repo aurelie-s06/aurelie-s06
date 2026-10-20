@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Aurélie SIROT — Future développeuse web">
+  <defs>
+    <radialGradient id="felt" cx="35%" cy="45%" r="85%">
+      <stop offset="0%" stop-color="#1f7a4d"/>
+      <stop offset="60%" stop-color="#0f5132"/>
+      <stop offset="100%" stop-color="#08311f"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7d774"/>
+      <stop offset="50%" stop-color="#d4a017"/>
+      <stop offset="100%" stop-color="#f7d774"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+    <style>
+      .title { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; fill: #ffffff; }
+      .sub   { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f7d774; letter-spacing: 3px; }
+      .txt   { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e8f5ee; }
+      .card  { animation: float 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .c2 { animation-delay: .5s; } .c3 { animation-delay: 1s; } .c4 { animation-delay: 1.5s; }
+      @keyframes float { 0%,100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+      .rank { font-family: Georgia, serif; font-weight: 700; font-size: 26px; }
+      .pip  { font-family: 'Segoe UI Symbol', 'DejaVu Sans', Arial, sans-serif; }
+      .red  { fill: #d62839; } .blk { fill: #1b1b1b; }
+    </style>
+    <path id="s-heart" d="M0,18 C-30,-5 -28,-28 -13,-30 C-5,-31 0,-25 0,-20 C0,-25 5,-31 13,-30 C28,-28 30,-5 0,18Z"/>
+    <path id="s-diamond" d="M0,-30 L22,0 L0,30 L-22,0Z"/>
+    <path id="s-spade" d="M0,-30 C30,-5 28,15 13,17 C5,18 2,13 2,10 L6,28 L-6,28 L-2,10 C-2,13 -5,18 -13,17 C-28,15 -30,-5 0,-30Z"/>
+    <g id="s-club"><circle cx="0" cy="-14" r="11.5"/><circle cx="-13" cy="5" r="11.5"/><circle cx="13" cy="5" r="11.5"/><path d="M-3,4 L3,4 L8,28 L-8,28Z"/></g>
+  </defs>
+
+  <!-- Tapis de jeu -->
+  <rect width="1200" height="340" rx="22" fill="url(#felt)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#dots)"/>
+  <rect x="10" y="10" width="1180" height="320" rx="16" fill="none" stroke="url(#gold)" stroke-width="2.5"/>
+  <rect x="18" y="18" width="1164" height="304" rx="12" fill="none" stroke="#f7d774" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- Texte -->
+  <g transform="translate(78 89)"><use href="#s-heart" class="red" transform="scale(.32)"/></g>
+  <g transform="translate(100 89)"><use href="#s-diamond" class="red" transform="scale(.32)"/></g>
+  <g transform="translate(122 89)"><use href="#s-spade" fill="#ffffff" transform="scale(.32)"/></g>
+  <g transform="translate(144 89)"><use href="#s-club" fill="#ffffff" transform="scale(.32)"/></g>
+  <text x="166" y="95" class="sub" font-size="16">PORTFOLIO AS</text>
+  <text x="68" y="165" class="title" font-size="64">Aurélie SIROT</text>
+  <text x="70" y="212" class="txt" font-size="26">Future développeuse web</text>
+  <rect x="70" y="236" width="90" height="4" rx="2" fill="url(#gold)"/>
+  <text x="70" y="278" class="txt" font-size="17" opacity="0.85">BUT MMI · Université Gustave Eiffel · Dév. Web &amp; Dispositifs Interactifs</text>
+
+  <!-- Les 4 As en éventail -->
+  <g transform="translate(905 175)">
+    <!-- A♣ -->
+    <g transform="rotate(-21) translate(-150 -10)">
+      <g class="card c1" filter="url(#shadow)">
+        <rect x="-60" y="-85" width="120" height="170" rx="12" fill="#fffdf7" stroke="#d4a017" stroke-width="2"/>
+        <text x="-46" y="-52" class="rank blk">A</text>
+        <use href="#s-club" class="blk" transform="translate(0 2) scale(1.15)"/>
+        <text x="46" y="72" class="rank blk" text-anchor="end" transform="rotate(180 38 64)">A</text>
+      </g>
+    </g>
+    <!-- A♠ -->
+    <g transform="rotate(-7) translate(-55 -18)">
+      <g class="card c2" filter="url(#shadow)">
+        <rect x="-60" y="-85" width="120" height="170" rx="12" fill="#fffdf7" stroke="#d4a017" stroke-width="2"/>
+        <text x="-46" y="-52" class="rank blk">A</text>
+        <use href="#s-spade" class="blk" transform="translate(0 2) scale(1.15)"/>
+        <text x="46" y="72" class="rank blk" text-anchor="end" transform="rotate(180 38 64)">A</text>
+      </g>
+    </g>
+    <!-- A♦ -->
+    <g transform="rotate(7) translate(45 -18)">
+      <g class="card c3" filter="url(#shadow)">
+        <rect x="-60" y="-85" width="120" height="170" rx="12" fill="#fffdf7" stroke="#d4a017" stroke-width="2"/>
+        <text x="-46" y="-52" class="rank red">A</text>
+        <use href="#s-diamond" class="red" transform="translate(0 2) scale(1.15)"/>
+        <text x="46" y="72" class="rank red" text-anchor="end" transform="rotate(180 38 64)">A</text>
+      </g>
+    </g>
+    <!-- A♥ -->
+    <g transform="rotate(21) translate(140 -10)">
+      <g class="card c4" filter="url(#shadow)">
+        <rect x="-60" y="-85" width="120" height="170" rx="12" fill="#fffdf7" stroke="#d4a017" stroke-width="2"/>
+        <text x="-46" y="-52" class="rank red">A</text>
+        <use href="#s-heart" class="red" transform="translate(0 2) scale(1.15)"/>
+        <text x="46" y="72" class="rank red" text-anchor="end" transform="rotate(180 38 64)">A</text>
+      </g>
+    </g>
+  </g>
+</svg>
