@@ -10,7 +10,7 @@
 
 ---
 
-## ♥ As de Cœur — À propos
+## ♥ As de Cœur - À propos
 
 Étudiante en **2ᵉ année de BUT MMI** (Métiers du Multimédia et de l'Internet) à l'**Université Gustave Eiffel**, parcours **Développement Web et Dispositifs Interactifs**.
 
@@ -23,7 +23,7 @@
 
 ---
 
-## ♦ As de Carreau — Mes atouts techniques
+## ♦ As de Carreau - Mes atouts techniques
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nestjs,php,mysql,wordpress,git,github,figma,vscode&theme=light" alt="Compétences">
@@ -40,7 +40,7 @@
 
 ---
 
-## ♠ As de Pique — Projets à la une
+## ♠ As de Pique - Projets à la une
 
 | | Projet | Description | Stack |
 |:-:|---|---|---|
@@ -56,7 +56,7 @@
 
 ---
 
-## ♣ As de Trèfle — Mes stats
+## ♣ As de Trèfle - Mes stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=aurelie-s06&show_icons=true&hide_border=true&bg_color=0f5132&title_color=f7d774&icon_color=f7d774&text_color=ffffff&locale=fr" alt="Stats GitHub">
