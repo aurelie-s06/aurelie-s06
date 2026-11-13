@@ -12,7 +12,7 @@
 
 ## ♥ As de Cœur - À propos
 
-Étudiante en **2ᵉ année de BUT MMI** (Métiers du Multimédia et de l'Internet) à l'**Université Gustave Eiffel**, parcours **Développement Web et Dispositifs Interactifs**.
+Étudiante en **3ᵉ année de BUT MMI** (Métiers du Multimédia et de l'Internet) à l'**Université Gustave Eiffel**, parcours **Développement Web et Dispositifs Interactifs**.
 
 - 🚄 **Actuellement en alternance** chez **SNCF Voyageurs** en tant que **développeuse web**, au sein de l'équipe informatique du Technicentre Est Européen
   - Développement et maintenance d'applications web **full-stack** (React · TypeScript · NestJS · MariaDB)
